@@ -1,0 +1,201 @@
+
+section{
+    padding: 0 15px;
+}
+.info{
+    display: block;
+    max-width: 1300px;
+    min-width: 320px;
+    margin: 20px auto;   
+}
+.info .container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    width: initial;
+}
+.info .container > div{
+    width: 50%;
+}
+.info_left h1{
+    max-width: 550px;
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    letter-spacing: -.05em;
+    margin-bottom: 2px;
+    color: #212738;
+    text-transform: capitalize;
+}
+.info_left .model{
+    display: block;
+    font-weight: 400;
+    font-size: 12.25px;
+    letter-spacing: normal;
+}
+.info_left .image{
+    text-align: center;
+}
+.info_left img{
+    max-height: 175px;
+    max-width: 175px;
+    margin: 15px auto;
+}
+
+.share{
+    margin-bottom: 25px;
+}
+.share, .share > ul{
+    display: flex;
+    align-items: center;
+}
+.share > ul li {
+    width: 17px;
+    height: 17px;
+    margin-left: 15px;
+}
+.share > ul li svg{
+    width: 100%;
+    height: auto;
+    fill: #bababa;
+}
+.share > span{
+    font-size: .857rem;
+    line-height: 1rem;
+    color: #8b888c;
+}
+
+.colors{
+    padding-top: 25px;
+    border-top: 1px solid #e5e5e5;
+    font-size: 14px;
+    color: #1f1f1f;
+}
+
+.container .color_list li{
+    width: 36px;
+    height: 36px;
+}
+.color_list li a{
+    width: 36px;
+    height: 36px;
+    
+}
+.container .color_list li img{
+    width: 36px;
+    height: auto;
+}
+main.buyNowNicel .container .color_list li img.nicel{
+    border-radius: 50%;
+    border: 2px solid #c8893b;
+}
+
+.sellers td img{
+    width: 40px;
+}
+.sellers td .stars {
+    display: flex;
+}
+.sellers td .under_img{
+    display: flex;
+}
+.sellers td .stars li{
+    width: 18px;
+}
+.sellers table {
+    border-spacing: 7px;
+}
+.sellers tr td:first-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40px;
+    margin: auto;
+    border-left: none;
+}
+.sellers td svg{
+    width: 100%;
+    height: auto;
+}
+
+.sellers h2{
+    position: relative;
+    float: left;
+    height: 40px;
+    width: 100%;
+    font-size: 24px;
+    border-bottom: 5px solid #f5f5f5;
+    display: flex;
+    align-items: center;
+    color: #717374;
+    justify-content: flex-start;
+}
+.sellers table{
+    width: 100%;
+}
+.sellers h2 a{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: auto;
+    font-size: 14px;
+    color: #C6893F;
+    text-decoration: none;
+}
+
+td .stock{
+    position: relative;
+}
+td .stock::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -10px;
+    background-color: #C6893F;
+    border-radius: 50%;
+    width: 11px;
+    height: 11px;
+}
+td{
+    text-align: center;
+    padding: 6px;
+    border-left: 1px solid #142845;
+}
+td.price{
+    font-weight: 700;
+    color: #717374;
+}
+
+td a{
+    height: 32px;
+    width: 100px;
+    background-color: #1B365D;
+    color: #FFFFFF;
+    border: none;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+td a:hover{
+    background-color: #142845;
+}
+table{
+    border-collapse: collapse;
+}
+table, tr{
+    border: 1px solid #142845;
+}
+@media screen and (max-width: 370px) {
+    .sellers h2{
+        padding-bottom: 32px;
+    }
+    .sellers h2 a{
+        top: 14px;
+    }
+}
